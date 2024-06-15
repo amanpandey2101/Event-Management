@@ -21,7 +21,7 @@ router.post(
   getCommitteeUnApprovedEvents
 );
 router.get("/approvedEvents", checkRole(["admin"]), getApprovedEvents);
-router.post("/getEvent", getEvent);
+router.get("/getEvent", getEvent);
 router.post(
   "/committeeApprovedEvents",
   checkRole(["convenor", "member"]),

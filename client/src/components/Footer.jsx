@@ -16,9 +16,9 @@ const Footer = () => {
       }}
     >
       <Typography textAlign='center' fontSize={!isNonMobile && "0.7rem"}>
-        Developed with ❤️ By
+        Developed By
         <Typography mx={1} variant='span' fontWeight='bold' color='secondary'>
-          <Link to='https://github.com/haseebyousuf/'> Haseeb Yousuf</Link>
+          <Link to='https://github.com/haseebyousuf/'> Aman Kumar Pandey</Link>
         </Typography>
       </Typography>
     </Box>
