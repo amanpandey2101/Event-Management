@@ -93,7 +93,7 @@ const HomeNavbar = () => {
               variant='h1'
               onClick={() => navigate("/")}
             >
-              <AnimateText text='GDSP Conference' delayValue={0.1} />
+              <AnimateText text='Aikyam' delayValue={0.1} />
             </Typography>
           </Box>
         </FlexBetween>
@@ -200,7 +200,7 @@ const HomeNavbar = () => {
               )}
               <Box display='flex' alignItems='center' gap='0.5rem'>
                 <Typography variant='h4' fontWeight='bold'>
-                  GDSP Conference
+                AIKYAM
                 </Typography>
               </Box>
             </FlexBetween>
